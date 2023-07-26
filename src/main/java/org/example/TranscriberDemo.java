@@ -10,9 +10,9 @@ public class TranscriberDemo {
 
         Configuration configuration = new Configuration();
 
-        configuration.setAcousticModelPath("/home/fundacion/Documents/sem6/prog6/code/sphinx-poc/src/main/java/org/example/dictionary/cmusphinx-es-5.2/model_parameters/voxforge_es_sphinx.cd_ptm_4000");
-        configuration.setDictionaryPath("/home/fundacion/Documents/sem6/prog6/code/sphinx-poc/src/main/java/org/example/dictionary/es.dict");
-        configuration.setLanguageModelPath("/home/fundacion/Documents/sem6/prog6/code/sphinx-poc/src/main/java/org/example/dictionary/es-20k.lm");
+        configuration.setAcousticModelPath("src/main/java/org/example/dictionary/cmusphinx-es-5.2/model_parameters/voxforge_es_sphinx.cd_ptm_4000");
+        configuration.setDictionaryPath("src/main/java/org/example/dictionary/es.dict");
+        configuration.setLanguageModelPath("src/main/java/org/example/dictionary/es-20k.lm");
 
         LiveSpeechRecognizer recognizer = new LiveSpeechRecognizer(configuration);
 
